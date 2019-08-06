@@ -1,0 +1,78 @@
+// [PackageDev] target_format: plist, ext: tmLanguage
+{
+  "name": "SCP-YC Markdown",
+  "scopeName": "source.Markdown",
+  "fileTypes": ["md", "ycmd", "mdown", "mkdown", "markdn", "markdown", "ycmarkdown"],
+  "uuid": "896b578c-3243-432f-9db4-b08ea1d5055e",
+
+  "patterns": [
+    {
+      "name": "title",
+      "match": "^#{1,6} .+$"
+    },
+    {
+      "name": "bold-italic",
+      "match": "(?<=\\*\\*\\*)[^\\*]+?(?=\\*\\*\\*)"
+    },
+    {
+      "name": "bold",
+      "match": "(?<=\\*\\*)[^\\*]+?(?=\\*\\*)"
+    },
+    {
+      "name": "italic",
+      "match": "(?<=\\*)[^\\*]+?(?=\\*[^\\*])"
+    },
+    {
+      "name": "del",
+      "match": "(?<=~~).+?(?=~~)"
+    },
+    {
+      "name": "bold-italic.symbol",
+      "match": "\\*\\*\\*"
+    },
+    {
+      "name": "bold.symbol",
+      "match": "\\*\\*"
+    },
+    {
+      "name": "italic.symbol",
+      "match": "\\*(?=[^\\*])"
+    },
+    {
+      "name": "del.symbol",
+      "match": "~~"
+    },
+    {
+      "name": "blockquote",
+      "match": "```"
+    },
+    {
+      "name": "folder",
+      "match": "\\[---\\]"
+    },
+    {
+      "name": "folder-info",
+      "match": "^\\[\\+\\] .+$"
+    },
+    {
+      "name": "folder-info",
+      "match": "^\\[-\\] .+$"
+    },
+    {
+      "name": "thead",
+      "match": ".+："
+    },
+    {
+      "name": "img.value",
+      "match": "!\\[.*?\\]"
+    },
+    {
+      "name": "link.value",
+      "match": "\\[.*?\\]"
+    },
+    {
+      "name": "link.href",
+      "match": "\\(.*?\\)"
+    }
+  ]
+}
