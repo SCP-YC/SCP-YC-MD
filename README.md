@@ -1,7 +1,7 @@
 # SCP-YC-MD
 SCP-YC文章所采用的类Markdown语法。
 
-想要撰写SCP-YC-MD文档？我们开发了基于Markdown的SCP-YC-MD语法，用于撰写SCP-YC分部的文档。我们的文档使用HTML进行展示，但是HTML的维护较为繁琐且不直观，我们使用了SCP-YC-MD语法来实现类Wiki语法的功能，并在书写完成后使用 [[SCP-YC-MD -> HTML 转换器]](SCP-YC.github.io/SCP-YC-MD/convert.html) 进行转换。另外，为了便于SCP-YC-MD的书写，我们开发了一款名为SCP-YC-MD的Sublime Text Package，来实现在Sublime Text里书写SCP-YC-MD的语法高亮。
+想要撰写SCP-YC-MD文档？我们开发了基于Markdown的SCP-YC-MD语法，用于撰写SCP-YC分部的文档。我们的文档使用HTML进行展示，但是HTML的维护较为繁琐且不直观，我们使用了SCP-YC-MD语法来实现类Wiki语法的功能，并在书写完成后使用 [[SCP-YC-MD -> HTML 转换器]](https://SCP-YC.github.io/SCP-YC-MD/convert.html) 进行转换。另外，为了便于SCP-YC-MD的书写，我们开发了一款名为SCP-YC-MD的Sublime Text Package，来实现在Sublime Text里书写SCP-YC-MD的语法高亮。
 
 ### SCP-YC-MD语法：
 
@@ -61,5 +61,5 @@ SCP-YC文章所采用的类Markdown语法。
 
 > 用于将SCP-YC-MD语法的文档转换为可展示的HTML语法
 
-转换器链接：[[SCP-YC-MD -> HTML 转换器]](SCP-YC.github.io/SCP-YC-MD/convert.html)
+转换器链接：[[SCP-YC-MD -> HTML 转换器]](https://SCP-YC.github.io/SCP-YC-MD/convert.html)
 
